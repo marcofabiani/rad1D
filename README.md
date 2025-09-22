@@ -10,7 +10,7 @@ q = \sigma \frac{1}{\left(\frac{1}{\varepsilon_\mathrm{gas}}+\frac{1}{\varepsilo
 For each nozzle abscissa the pressure, temperature and composition are computed using rocketcea. The gas emissivity is computed using a custom weighted-sum-of-gray-gases model developed specifically for liquid rocket engines [1,2]. 
 
 
-Requires the rocketcea package and numpy
+Requires the [rocketcea](https://github.com/sonofeft/RocketCEA) package and numpy.
 
 
 ## References
