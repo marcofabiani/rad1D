@@ -4,7 +4,7 @@ rad1D is a 1 dimensional radiation model for liquid rocket engines.
 
 The model computes the radiative heat flux along the thrust chamber wall as
 ```math
-q = \sigma \frac{1}{\left(\frac{1}{\varepsilon_\mathrm{gas}+\frac{1}{\varepsilon_\mathrm{wall}}-1}\right)}\left(T_\mathrm{gas}^4-T_\mathrm{wall}^4\right)
+q = \sigma \frac{1}{\left(\frac{1}{\varepsilon_\mathrm{gas}}+\frac{1}{\varepsilon_\mathrm{wall}}-1\right)}\left(T_\mathrm{gas}^4-T_\mathrm{wall}^4\right)
 ```
 
 For each nozzle abscissa the pressure, temperature and composition are computed using rocketcea. The gas emissivity is computed using a custom weighted-sum-of-gray-gases model developed specifically for liquid rocket engines [1,2]. 
